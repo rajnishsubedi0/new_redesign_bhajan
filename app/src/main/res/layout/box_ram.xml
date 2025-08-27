@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:elevation="0dp"
+    app:cardCornerRadius="20dp"
+    style="@style/BOX_BACKGROUND_COLOUR"
+    >
+    <LinearLayout
+        android:gravity="center"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/ram"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:maxWidth="50dp"
+            android:maxHeight="50dp"
+            android:adjustViewBounds="true"
+            />
+        <TextView
+            style="@style/TEXT_COLOR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="सम्पुर्ण भजन"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
